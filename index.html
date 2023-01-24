@@ -13,48 +13,82 @@
     <!-- Header Section Start -->
     <header class="px-5 container">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid ">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <img src="./images/logo2.png">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mb-lg-0 mb-2 mx-auto text-center">
+              <li class="nav-item px-3">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link">Cases</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link">Contact Us</a>
+              </li>
+              </ul>
+              <div>
+                  
+              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Free Consultation
               </button>
-              <a class="navbar-brand fw-semibold" href="#">Justic</a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Cases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Blog</a>
-                  </li>
-                </ul>
-               
-                  <button class="btn bg-warning" type="submit">Free Consultation</button>
-                
-              </div>
-            </div>
-          </nav>
-          <!-- Header Description Start -->
-
-
-        <div class="text-center mt-5 rounded-1">
-            <img src="./images/banner.png" class="card-img" alt="...">
-            <div class="card-img-overlay d-flex flex-column gap-3 align-items-center justify-content-center">
-              <h5 class="card-title fw-bold text-white" style="font-size: 3.5rem;">We Provide Effective <br> Legal Solutions</h5>
-              <p class="card-text text-white
-              w-50">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-              <div class="d-flex align-items-center justify-content-center gap-3 text-white rounded">
-                <input type="text" placeholder="Search your services" class="px-4 py-3 rounded out-line">
-                <button class="btn px-4 py-3  fs-6" style="background-color: #B68C5A;">Search</button>
-            </div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">TAKE A FREE LEGAL ADVICE</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="col">
+                          <form>
+                              <input type="text" id="disabledTextInput" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your Name">
+                              <input type="text" id="disabledTextInput" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your Email">
+                              <input type="text" id="disabledTextInput" class="form-control bg-body-secondary py-3 mb-4" placeholder="Subject">
+                              <input type="text" id="disabledTextInput" class="form-control bg-body-secondary py-5 mb-4" placeholder=" Your Text">
+                              <button type="button" class="btn btn-warning w-100">Send Message</button>
+                          </form> 
+                      </div>
+                    </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                  </div>
+                </div>
+              </div>   
             </div>
           </div>
+      </nav>
+
+          <!-- Header Description Start -->
+
+          <div class="header-bg text-white max-width align-middle text-center my-5 py-5">
+            <div class=" row d-flex align-items-center container mx-auto w-75 h-75 align-middle">
+                <div class="col align-items-center lh-lg align-middle">
+                
+                    <h1 class="pb-4 pt-5">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="pb-4">From corporate law to human rights law, find out about different practice areas and what skills you need to succeed in each one..</p>
+                    
+                    <form class="d-flex ps-4 align-items-center justify-content-center" role="search">
+                        <input class="form-control ps-4 me-2 w-50" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn px-4 py-2" type="submit" style="background-color: #B68C5A;">Search</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        
     </header>
     <!-- Main Section Start -->
     <main class="container mt-5 mb-5">
@@ -171,51 +205,51 @@
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
           </div>
 
-          <div class="d-sm-flex justify-content-center w-100 mt-5 d-block">
-            <div class="accordion accordion-flush w-50 d-flex flex-column gap-5" id="accordionFlushExample">
-              <div class="accordion-item">
+          <div class="d-sm-flex justify-content-center w-100 mt-5 d-block gap-lg-2">
+            <div class="accordion accordion-flush w-50 d-flex flex-column gap-5 m-auto" id="accordionFlushExample">
+              <div class="accordion-item ">
                 <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    
+                  <button class="accordion-button bg-light-subtle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <h5>what is the difference between flex and grid? </h5>
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Accordion Item #2
+                    <h5>What is purpose of media Quarry?</h5>
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div class="accordion-body"> Media queries is a popular technique for delivering a tailored style sheet (responsive web design) to desktops, laptops, tablets, and mobile phones.</div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Accordion Item #3
+                    <h5>What is the box model of CSS?</h5>
                   </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div class="accordion-body">A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS</div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    Accordion Item #4
+                    <h5>What is the semantic tag?</h5>
                   </button>
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div class="accordion-body">The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.</div>
                 </div>
               </div>
             </div>
 
-            <div class="w-50">
+            <div class="w-50 m-auto">
               <img src="./images/faq.png" alt="" class="w-100">
             </div>
 
